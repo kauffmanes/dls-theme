@@ -13,3 +13,5 @@ Route::get('home', function()
 {
     return view('welcome');
 });
+
+Route::get('front', 'Pages@home');
