@@ -11,7 +11,7 @@
 
 Route::get('home', function()
 {
-    return view('welcome');
+    return view('pages.welcome');
 });
 
 Route::get('front', 'Pages@home');
